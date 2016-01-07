@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEA22F861C3F075100CDC6BC /* ff0000-marker-512.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA22F851C3F075100CDC6BC /* ff0000-marker-512.png */; settings = {ASSET_TAGS = (); }; };
+		DEA22F881C3F079900CDC6BC /* ff0000-marker-256.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA22F871C3F079900CDC6BC /* ff0000-marker-256.png */; settings = {ASSET_TAGS = (); }; };
+		DEA22F8A1C3F07ED00CDC6BC /* ff0000-map-marker-256.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA22F891C3F07ED00CDC6BC /* ff0000-map-marker-256.png */; settings = {ASSET_TAGS = (); }; };
+		DEE251DE1C3ED0CC00D97FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE251DD1C3ED0CC00D97FD1 /* AppDelegate.swift */; };
+		DEE251E01C3ED0CC00D97FD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE251DF1C3ED0CC00D97FD1 /* ViewController.swift */; };
+		DEE251E31C3ED0CC00D97FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE251E11C3ED0CC00D97FD1 /* Main.storyboard */; };
+		DEE251E51C3ED0CC00D97FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE251E41C3ED0CC00D97FD1 /* Assets.xcassets */; };
+		DEE251E81C3ED0CC00D97FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE251E61C3ED0CC00D97FD1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEA22F851C3F075100CDC6BC /* ff0000-marker-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff0000-marker-512.png"; sourceTree = "<group>"; };
+		DEA22F871C3F079900CDC6BC /* ff0000-marker-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff0000-marker-256.png"; sourceTree = "<group>"; };
+		DEA22F891C3F07ED00CDC6BC /* ff0000-map-marker-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff0000-map-marker-256.png"; sourceTree = "<group>"; };
+		DEE251DA1C3ED0CC00D97FD1 /* MarcandoRuta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarcandoRuta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE251DD1C3ED0CC00D97FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEE251DF1C3ED0CC00D97FD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEE251E21C3ED0CC00D97FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEE251E41C3ED0CC00D97FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEE251E71C3ED0CC00D97FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEE251E91C3ED0CC00D97FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEE251D71C3ED0CC00D97FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEA22F841C3F073900CDC6BC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DEA22F851C3F075100CDC6BC /* ff0000-marker-512.png */,
+				DEA22F871C3F079900CDC6BC /* ff0000-marker-256.png */,
+				DEA22F891C3F07ED00CDC6BC /* ff0000-map-marker-256.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		DEE251D11C3ED0CB00D97FD1 = {
+			isa = PBXGroup;
+			children = (
+				DEE251DC1C3ED0CC00D97FD1 /* MarcandoRuta */,
+				DEE251DB1C3ED0CC00D97FD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEE251DB1C3ED0CC00D97FD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEE251DA1C3ED0CC00D97FD1 /* MarcandoRuta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEE251DC1C3ED0CC00D97FD1 /* MarcandoRuta */ = {
+			isa = PBXGroup;
+			children = (
+				DEA22F841C3F073900CDC6BC /* images */,
+				DEE251DD1C3ED0CC00D97FD1 /* AppDelegate.swift */,
+				DEE251DF1C3ED0CC00D97FD1 /* ViewController.swift */,
+				DEE251E11C3ED0CC00D97FD1 /* Main.storyboard */,
+				DEE251E41C3ED0CC00D97FD1 /* Assets.xcassets */,
+				DEE251E61C3ED0CC00D97FD1 /* LaunchScreen.storyboard */,
+				DEE251E91C3ED0CC00D97FD1 /* Info.plist */,
+			);
+			path = MarcandoRuta;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEE251D91C3ED0CC00D97FD1 /* MarcandoRuta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE251EC1C3ED0CC00D97FD1 /* Build configuration list for PBXNativeTarget "MarcandoRuta" */;
+			buildPhases = (
+				DEE251D61C3ED0CC00D97FD1 /* Sources */,
+				DEE251D71C3ED0CC00D97FD1 /* Frameworks */,
+				DEE251D81C3ED0CC00D97FD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarcandoRuta;
+			productName = MarcandoRuta;
+			productReference = DEE251DA1C3ED0CC00D97FD1 /* MarcandoRuta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEE251D21C3ED0CB00D97FD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = cerjio;
+				TargetAttributes = {
+					DEE251D91C3ED0CC00D97FD1 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = DEE251D51C3ED0CB00D97FD1 /* Build configuration list for PBXProject "MarcandoRuta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEE251D11C3ED0CB00D97FD1;
+			productRefGroup = DEE251DB1C3ED0CC00D97FD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEE251D91C3ED0CC00D97FD1 /* MarcandoRuta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEE251D81C3ED0CC00D97FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA22F861C3F075100CDC6BC /* ff0000-marker-512.png in Resources */,
+				DEA22F881C3F079900CDC6BC /* ff0000-marker-256.png in Resources */,
+				DEE251E81C3ED0CC00D97FD1 /* LaunchScreen.storyboard in Resources */,
+				DEE251E51C3ED0CC00D97FD1 /* Assets.xcassets in Resources */,
+				DEA22F8A1C3F07ED00CDC6BC /* ff0000-map-marker-256.png in Resources */,
+				DEE251E31C3ED0CC00D97FD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEE251D61C3ED0CC00D97FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE251E01C3ED0CC00D97FD1 /* ViewController.swift in Sources */,
+				DEE251DE1C3ED0CC00D97FD1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEE251E11C3ED0CC00D97FD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE251E21C3ED0CC00D97FD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEE251E61C3ED0CC00D97FD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE251E71C3ED0CC00D97FD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEE251EA1C3ED0CC00D97FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEE251EB1C3ED0CC00D97FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEE251ED1C3ED0CC00D97FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarcandoRuta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cerjio.MarcandoRuta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEE251EE1C3ED0CC00D97FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarcandoRuta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cerjio.MarcandoRuta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEE251D51C3ED0CB00D97FD1 /* Build configuration list for PBXProject "MarcandoRuta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE251EA1C3ED0CC00D97FD1 /* Debug */,
+				DEE251EB1C3ED0CC00D97FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE251EC1C3ED0CC00D97FD1 /* Build configuration list for PBXNativeTarget "MarcandoRuta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE251ED1C3ED0CC00D97FD1 /* Debug */,
+				DEE251EE1C3ED0CC00D97FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEE251D21C3ED0CB00D97FD1 /* Project object */;
+}
