@@ -87,6 +87,20 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
     }
     
+    func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
+        
+        let alerta = UIAlertController(title: "Error", message: "error \(error.code)", preferredStyle: .Alert)
+        
+        let accionOK = UIAlertAction(title: "OK", style: .Default, handler: {accion in
+            
+        })
+        
+        alerta.addAction(accionOK)
+        
+        self.presentViewController(alerta, animated: true, completion: nil)
+    }
+
+    
     @IBAction func didChangeValueControl(sender: UISegmentedControl) {
         
         switch (sender.selectedSegmentIndex) {
